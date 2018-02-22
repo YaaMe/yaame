@@ -322,19 +322,19 @@ end)
 ---
 --  加载/切换到指定App
 hs.fnutils.each({
-    {key = "b", app = APPNAMES.Movie},
-    {key = "e", app = APPNAMES.Emacs},
-    {key = "c", app = APPNAMES.Browser},
-    {key = "f", app = APPNAMES.FileManager},
-    {key = "i", app = APPNAMES.Term},
-    {key = "m", app = APPNAMES.Mail},
-    {key = "q", app = APPNAMES.IM},
-    {key = "s", app = APPNAMES.TextEditor},
-    {key = "u", app = APPNAMES.Doc},
-    {key = "t", app = APPNAMES.Music},
+    -- {key = "b", app = APPNAMES.Movie},
+    -- {key = "e", app = APPNAMES.Emacs},
+    -- {key = "c", app = APPNAMES.Browser},
+    -- {key = "f", app = APPNAMES.FileManager},
+    -- {key = "i", app = APPNAMES.Term},
+    -- {key = "m", app = APPNAMES.Mail},
+    -- {key = "q", app = APPNAMES.IM},
+    -- {key = "s", app = APPNAMES.TextEditor},
+    -- {key = "u", app = APPNAMES.Doc},
+    -- {key = "t", app = APPNAMES.Music},
     -- {key = "t", app = APPNAMES.Todolist},
-    {key = "w", app = APPNAMES.WeChat},
-    {key = "y", app = APPNAMES.Preview},
+    -- {key = "w", app = APPNAMES.WeChat},
+    -- {key = "y", app = APPNAMES.Preview},
 }, function(meta)
     hs.hotkey.bind(m_switch_app, meta.key, launch_or_focus_window(meta.app))
 end)
