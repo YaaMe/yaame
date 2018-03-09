@@ -335,6 +335,7 @@ you should place your code here."
 
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-M->") 'mc/mark-next-word-like-this)
+(global-set-key (kbd "C-c g") 'avy-goto-line)
 )
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
