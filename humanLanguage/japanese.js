@@ -69,7 +69,10 @@ let ask = question => {
         if (answer == read) {
             return ask($random(range))
         } else {
-            console.log(`answer is ${answer}`)
+            console.log(`${question} is ${answer}`)
+            console.log(`${read} is :`)
+            console.log(range[ANSWER.indexOf(read)])
+            console.log(range[ANSWER.indexOf(read) + UPPER.length])
             bot.close();
         }
     });
