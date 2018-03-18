@@ -63,12 +63,15 @@ let bot = readline.createInterface({
     output:process.stdout
 });
 let range = `${UPPER}${LOWER}`;
+let count = 0;
 let ask = question => {
     bot.question(`${question}\n`, read => {
         let answer = ANSWER[range.indexOf(question) % ANSWER.length];
         if (answer == read) {
+            count++;
             return ask($random(range))
         } else {
+            console.log(`score: ${count}`)
             console.log(`${question} is ${answer}`)
             console.log(`${read} is :`)
             console.log(range[ANSWER.indexOf(read)])
