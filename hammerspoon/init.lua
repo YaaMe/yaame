@@ -1,4 +1,4 @@
---  @author     Dongliang Ma <mdl2009@vip.qq.com>
+--  @author     X
 --  @license    MIT
 -- 设置Grid 12x8(水平x竖直)
 hs.grid.MARGINX = 0
@@ -318,6 +318,12 @@ hs.hotkey.bind(m_mod2, "right", function()
     f.w = max.w / 2
     f.h = max.h
     win:setFrame(f)
+end)
+
+---
+-- 锁屏
+hs.hotkey.bind(m_mod2, "l", function()
+    hs.caffeinate.lockScreen()
 end)
 ---
 --  加载/切换到指定App
