@@ -1,0 +1,5 @@
+# TODO
+
+## Linux
+
+ubuntu chinese input method support
