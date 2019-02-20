@@ -32,8 +32,6 @@ values."
    dotspacemacs-configuration-layers
    '(
      rcirc
-     (chinese :variables
-              chinese-enable-fcitx t)
      sql
      clojure
      swift
