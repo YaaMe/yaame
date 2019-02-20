@@ -1,5 +1,9 @@
 # TODO
 
+## books
+
+[jeffe](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf)
+
 ## Linux
 
 
