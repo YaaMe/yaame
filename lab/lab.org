@@ -1,9 +1,60 @@
-# TODO
+* TODO
+** skills
+*** TODO org-mode
+**** TODO start
 
-## books
+** books
+*** org
+    [org](https://orgmode.org/features.html)
+*** algorithms
+    [jeffe](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf)
 
-[jeffe](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf)
 
-## Linux
 
+* scripts
+
+
+#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+     "Exclusive or."
+     (if a (not b) b))
+#+END_SRC
+
+
+#+BEGIN_SRC js
+return 2 + 5
+#+END_SRC
+
+#+RESULTS:
+: 7
+
+#+BEGIN_SRC python
+import time
+print("hello, today is %s" % time.ctime())
+print("2 + 2")
+return 2 + 3
+#+END_SRC
+
+#+RESULTS:
+: 5
+
+#+BEGIN_SRC http :pretty
+GET https://api.github.com/repos/zweifisch/ob-http/languages
+Accept: application/vnd.github.moondragon+json
+#+END_SRC
+
+#+RESULTS:
+: {
+:   "message": "API rate limit exceeded for 203.179.90.205. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+:   "documentation_url": "https://developer.github.com/v3/#rate-limiting"
+: }
+
+#+BEGIN_SRC emacs-lisp
+  (defun org-xor (a b)
+     "Exclusive or."
+     (if a (not b) b))
+#+END_SRC
+
+#+RESULTS:
+: org-xor
 
