@@ -328,7 +328,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
        (sql . t)
        (sqlite . t)
        )))
-  custom variables
+  ;; custom variables
   (setq-default
    standard-indent 2
    tab-width 2
