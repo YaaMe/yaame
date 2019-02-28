@@ -13,6 +13,7 @@
     https://happylilac.net/syogaku.html
     https://jp.sonic-learning.com/2010/02/07/gl10/
     heroku
+    solidity compile
 
 
 * scripts
