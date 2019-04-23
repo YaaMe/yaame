@@ -1,0 +1,15 @@
+* solutions
+** remote
+
+1 set ~/.ssh/config
+
+`
+Host YOUR_LINK
+  User USER
+  HostName $host_name
+  options
+`
+
+2 tramp /sshx:YOUR_LINK:/
+
+3 C-x r m named bookmark
