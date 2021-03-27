@@ -15,7 +15,7 @@ Host YOUR_LINK
 3 C-x r m named bookmark
 
 
-y4
+y5
 
 do a test for merge
 
