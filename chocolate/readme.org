@@ -13,3 +13,8 @@ Host YOUR_LINK
 2 tramp /sshx:YOUR_LINK:/
 
 3 C-x r m named bookmark
+
+
+
+
+do a test for merge
