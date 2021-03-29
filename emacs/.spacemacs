@@ -558,9 +558,12 @@ If you are unsure, try setting them in `dotspacemacs/user-config' first."
   (global-set-key (kbd "<f7>") 'symbol-overlay-mode)
   (global-set-key (kbd "<f8>") 'symbol-overlay-remove-all)
   (global-set-key (kbd "C->") 'mc/mark-next-like-this)
-  (global-set-key (kbd "C-M->") 'mc/mark-next-word-like-this)
+  (global-set-key (kbd "C-M->") 'mc/mark-next-like-this-word)
   (global-set-key (kbd "C-c g") 'avy-goto-line)
   (global-set-key (kbd "C-x o") 'ace-window)
+  (global-set-key (kbd "M-SPC") 'set-mark-command)
+  (global-set-key (kbd "C-x C-l") 'avy-goto-line)
+  (global-set-key (kbd "M-m s a q") 'helm-projectile-find-file)
   )
 
 (defun dotspacemacs/user-load ()
