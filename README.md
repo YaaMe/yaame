@@ -1,7 +1,4 @@
-### Miao 👋
-
-gugugu
-personal workspace env here
+### gugugu 👋
 <!--
 **YaaMe/yaame** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
